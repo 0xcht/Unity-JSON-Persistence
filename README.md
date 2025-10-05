@@ -63,6 +63,8 @@ JsonMgr.Instance.SaveData(profile, "player_profile", JsonType.JsonUtility);
 - Windows: `C:/Users/<UserName>/AppData/LocalLow/<CompanyName>/<ProjectName>`  
 - Android/iOS: stored in Unity’s persistent data folder.
 
+### License
+- This project is licensed under the MIT License
 ---
 ## 中文
 
@@ -120,6 +122,9 @@ JsonMgr.Instance.SaveData(profile, "player_profile", JsonType.JsonUtility);
 ```
 
 ### 文件存储路径
-- 文件默认存储在 `Application.persistentDataPath`。  
+- 文件默认存储在 `Application.persistentDataPath`
 - **Windows**：`C:/Users/<用户名>/AppData/LocalLow/<公司名>/<项目名>`  
-- **Android/iOS**：存储在 Unity 管理的持久化数据文件夹中。
+- **Android/iOS**：存储在 Unity 管理的持久化数据文件夹中
+
+### 许可证
+- 本项目采用 MIT 许可协议
